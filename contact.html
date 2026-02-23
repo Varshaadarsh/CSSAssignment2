@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Varsha R Krishnan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body class="fade">
+    <header>
+        <h1>Portfolio</h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+         <nav>
+            <ul class="nav-section">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <img src="images/DSC_0148.JPG" alt="Profile Picture" class="profile">
+
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Stay on the line</h2>
+            <form>
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phonenumber">Phone Number: </label>
+                    <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required
+                        placeholder="Enter your Phone Number">
+                </div>
+                <br>
+                <div>
+                    <label for="specialization">Specialization: </label>
+                    <input type="text" id="Specialization" name="Specialization"
+                        placeholder="You are Specialization in">
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message: </label>
+                    <textarea name="messsage" id="message" rows="4" placeholder="Leave a Message"></textarea>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Varsha R Krishnan | Email: varsharkrishnan02@gmail.com</p>
+    </footer>
+</body>
+
+</html>
